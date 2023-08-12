@@ -57,13 +57,14 @@
     height: 40px;
     border-radius: 4px;
     background-color: #0F1111;
-    padding: 10px 4px 10px 3px;
+    padding: 0;
 }
 
 .search-input {
     width: 100%;
     font-size: 1rem;
     border: none;
+    padding: 15px;
 }
 
 .search-select {
@@ -100,6 +101,8 @@ span {
     border: 2px solid;
 }
 
+/* Panel */
+
 .panel {
     height: 40px;
     background-color: #222f3d;
@@ -111,7 +114,7 @@ span {
 
 .panel-ops p{
     display: inline;
-    margin-left: ;
+    margin-left: 15px
 }
 
 .panel-ops {

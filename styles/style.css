@@ -249,6 +249,11 @@ footer ul.copy li {
   color: #999;
   font-size: 11px;
 }
+.text-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 footer .middle .copy {
   border-top: 1px solid #3a4553;
   padding: 30px 20px 20px 20px;
@@ -305,4 +310,15 @@ a:hover {
   color: #e3e8ed;
 }
 
+@media (max-width: 768px) {
+  .shop-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .box {
+      width: 40%;
+      margin: 10px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
